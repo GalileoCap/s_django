@@ -22,6 +22,9 @@ Y desplegando en [pythonanywhere](https://www.pythonanywhere.com/)
 		#Acá creás la clase para los posts en blog/models.py
 		python manage.py makemigrations blog
 		python manage.py migrate blog
+
+		#Acá editás blog/admin.py
+		python manage.py createsuperuser
 		~~~
 
 * Para correr el server:
