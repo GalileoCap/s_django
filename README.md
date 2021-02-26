@@ -21,6 +21,7 @@ Y desplegando en [pythonanywhere](https://www.pythonanywhere.com/)
 		python manage.py startapp blog
 		#Acá creás la clase para los posts en blog/models.py
 		python manage.py makemigrations blog
+		python manage.py migrate blog
 		~~~
 
 * Para correr el server:
