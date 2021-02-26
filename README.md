@@ -10,4 +10,5 @@ source myenv/bin/activate
 django-admin startproject mysite .
 #Acá cambiás la configuración en mysite/settings.py
 python manage.py migrate
+python manage.py runserver
 ~~~
